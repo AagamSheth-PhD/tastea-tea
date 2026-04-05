@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastea - C.T.C Premium Tea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <span class="logo-text">Tastea<span class="logo-dot">.</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#products">Shop</a>
+                <a href="#story">Our Story</a>
+                <a href="#experience">Experience</a>
+            </nav>
+            <a href="https://wa.me/919662797900?text=I'd%20like%20to%20order%20Tastea" target="_blank" class="btn btn-outline" rel="noopener">Order Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">Premium Assam CTC Tea</div>
+                    <h1>Strong Taste.<br>Every Day.</h1>
+                    <p class="subhead">Premium Assam CTC Tea crafted for a rich, bold, and consistent daily chai. Delivered fresh from our gardens to your cup.</p>
+                    <div class="hero-ctas">
+                        <a href="tel:9662797900" class="btn btn-primary">Call 9662797900</a>
+                        <a href="https://wa.me/919662797900?text=I'd%20like%20to%20order%20Tastea" class="btn btn-secondary" target="_blank" rel="noopener">Order on WhatsApp</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <img src="images/purple_container.png" alt="Tastea 500g Premium Container" class="floating-img">
+                        <div class="glow-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Choose Your Pack</h2>
+                    <p>Designed for every household's daily tea needs</p>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- 500g Pack -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="images/purple_container.png" alt="Tastea 500g Purple Free Container" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>The Value Pack - 500g</h3>
+                            <div class="product-meta">
+                                <span class="weight">Net Weight: 500g</span>
+                                <span class="price">₹220.00</span>
+                            </div>
+                            <div class="honest-pricing-badge">Premium Quality at Honest Pricing</div>
+                            <div class="value-badge">✔️ Free Airtight Container Included</div>
+                            <p class="product-desc">While competitors sell similar quality at ₹600/kg, Tastea provides a superior Assam blend at ₹440/kg by sourcing directly.</p>
+                            <a href="https://wa.me/919662797900?text=I'd%20like%20to%20order%20the%20500g%20Value%20Pack" class="btn btn-outline full-width mt-1">Order 500g</a>
+                        </div>
+                    </div>
+
+                    <!-- 1kg Pack -->
+                    <div class="product-card featured">
+                        <div class="badge-gold">MOST POPULAR</div>
+                        <div class="product-img-wrapper">
+                            <img src="images/purple_container.png" alt="Tastea 1kg Purple Free Containers" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>The Mega Saver Pack - 1kg</h3>
+                            <div class="product-meta">
+                                <span class="weight">Net Weight: 1kg</span>
+                                <span class="price">₹440.00</span>
+                            </div>
+                            <div class="honest-pricing-badge">Premium Quality at Honest Pricing</div>
+                            <div class="value-badge">✔️ Free Airtight Container Included</div>
+                            <p class="product-desc">Our best value offering, designed to keep your daily tea fresh for longer.</p>
+                            
+                            <a href="https://wa.me/919662797900?text=I'd%20like%20to%20order%20the%201kg%20Mega%20Saver%20Pack" class="btn btn-primary full-width mt-1">Order 1kg</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="story">
+            <div class="container story-container">
+                <div class="story-content">
+                    <h2>From Assam’s Gardens to Your Morning Cup.</h2>
+                    <p class="narrative">
+                        "At Tastea, we know that the most important conversation of your day happens over a cup of chai. Our mission at Harsh Trading Company is to bridge the gap between affordability and premium quality, sourcing directly from the finest tea gardens in Assam to bring you a bold, reliable strength in every single cup."
+                    </p>
+                    <p class="narrative" style="color: var(--gold); font-weight: 600; margin-top: -20px;">
+                        Why pay ₹600/kg for 'brand names' when you can get superior, direct-from-Assam strength for ₹440? At Tastea, you pay for the tea, not the expensive marketing.
+                    </p>
+                    <div class="signature">
+                        <strong>The Tastea Family</strong>
+                        <span>Harsh Trading Company, Surat</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="video-overlay"></div>
+            <video autoplay muted loop playsinline class="bg-video">
+                <!-- Using the downloaded video file as requested -->
+                <source src="hero-video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="experience-content">
+                <h2>Experience True Aroma</h2>
+                <div class="brewing-guide">
+                    <div class="step">
+                        <div class="icon">💧</div>
+                        <span>1. Boil Water w/ Spices</span>
+                    </div>
+                    <div class="step">
+                        <div class="icon">🌿</div>
+                        <span>2. Add 1 tsp Tastea CTC</span>
+                    </div>
+                    <div class="step">
+                        <div class="icon">🥛</div>
+                        <span>3. Add Milk & Sugar</span>
+                    </div>
+                    <div class="step">
+                        <div class="icon">☕</div>
+                        <span>4. Strain & Enjoy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="company-details">
+                <h3>Harsh Trading Company</h3>
+                <p>Palanpur, Surat - 395009</p>
+            </div>
+            
+            <!-- Trust Section & FSSAI -->
+            <div class="footer-trust">
+                <img src="images/image_037742.png" alt="Official FSSAI Logo" class="fssai-footer-logo" loading="lazy">
+                <span>Licensed under FSSAI No. 20725031005828</span>
+            </div>
+
+            <div class="disclaimer">
+                <p>Batch details and packaging dates are provided on the physical product to ensure maximum freshness.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile Footer -->
+    <div class="sticky-footer">
+        <div class="sticky-content">
+            <span class="contact-name">Abhay Sheth</span>
+            <div class="sticky-actions">
+                <a href="tel:9662797900" class="btn btn-outline-small">Call 9662797900</a>
+                <a href="https://wa.me/919662797900" class="btn btn-primary-small">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/919662797900" class="float-wa" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor"><path d="M16 2.052A13.916 13.916 0 0 0 2.083 15.96c0 2.76.721 5.454 2.088 7.828L2 30l6.33-1.637a13.935 13.935 0 0 0 7.67 2.274h.006A13.917 13.917 0 0 0 29.916 15.96 13.882 13.882 0 0 0 16 2.052zm0 24.587h-.005a11.59 11.59 0 0 1-5.918-1.616l-.426-.251-4.398 1.137 1.173-4.242-.279-.438A11.558 11.558 0 0 1 4.417 15.96c0-6.386 5.215-11.602 11.608-11.602a11.571 11.571 0 0 1 11.604 11.61c-.001 6.388-5.216 11.601-11.629 11.601zm6.368-8.625c-.347-.175-2.062-1.006-2.38-1.121-.318-.115-.55-.175-.783.175-.233.348-.897 1.121-1.1 1.348-.201.229-.405.258-.752.083-.348-.175-1.472-.538-2.805-1.722-1.037-.92-1.737-2.054-1.942-2.404-.201-.347-.02-.536.152-.711.156-.156.348-.403.522-.605s.233-.348.348-.581c.115-.233.058-.436-.029-.611-.087-.175-.783-1.874-1.071-2.563-.28-.673-.566-.582-.783-.591-.2-.008-.432-.009-.665-.009a1.272 1.272 0 0 0-.923.428c-.318.348-1.214 1.175-1.214 2.862 0 1.687 1.244 3.32 1.418 3.553.173.232 2.456 3.652 5.922 5.122 2.316.982 3.226 1.054 4.195.897.969-.157 3.023-1.196 3.447-2.355.431-1.168.431-2.164.303-2.369-.129-.204-.476-.32-.823-.495z"/></svg>
+    </a>
+    <script src="app.js"></script>
+</body>
+</html>
